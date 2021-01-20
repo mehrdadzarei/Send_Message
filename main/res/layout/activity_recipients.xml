@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c2869"
+    android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+    android:paddingTop="?attr/listPreferredItemPaddingStart"
+    android:paddingRight="?attr/listPreferredItemPaddingRight"
+    android:paddingBottom="?attr/listPreferredItemPaddingEnd"
+    tools:context=".Recipients">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutId"
+        android:background="#00b2b2"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/recipientId"
+            android:text="@string/recipients"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="|"
+            android:textSize="35sp"
+            android:textColor="#b20000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/totalId"
+            android:text="@string/title_total_recipients"
+            android:textSize="28sp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@+id/linearLayoutId"
+        android:layout_marginTop="5dp"
+        android:dividerHeight="2dp"
+        android:divider="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+</RelativeLayout>

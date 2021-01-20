@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Power Detection</string>
+    <string name="new_recipient">New Recipient</string>
+    <string name="name">Name:</string>
+    <string name="hint_name">Danial</string>
+    <string name="surname">Surname:</string>
+    <string name="hint_surname">Morini</string>
+    <string name="cell_NO.">Cell No.:</string>
+    <string name="hint_No">225412336</string>
+    <string name="email">Email:</string>
+    <string name="hint_email">test@gmail.com</string>
+    <string name="hint_message">Message:</string>
+    <string name="message">Hurry up, power of the Lab has been off</string>
+    <string name="add">Add</string>
+    <string name="total_recipients">Recipients</string>
+    <string name="recipients">Recipients</string>
+    <string name="title_total_recipients">Total:</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+</resources>
